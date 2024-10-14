@@ -155,7 +155,7 @@
   <center>
     <span style="font-size:34px">Wavelet Latent Diffusion(WaLa): Billion-Parameter 3D Generative Model with Compact Wavelet Encodings</span><br>
     <br>
-    <table align="center" width="1200px">
+    <table align="center" width="1100px">
       <tbody>
         <tr>
           <td align="center" width="150px">
@@ -174,35 +174,37 @@
           </td>
         </tr>
       </tbody>
+      <tbody>
+        <tr>
+          <td align="center">
+            <center>
+              <br>
+              <h1>Abstract</h1>
+              Large-scale 3D generative models require substantial computational resources yet often fall short in capturing fine details and complex geometries at high resolutions. We attribute this limitation to the inefficiency of current representations, which lack the compactness required for generative networks to model effectively. To address this, we introduce Wavelet Latent Diffusion (WaLa), a novel approach that encodes 3D shapes into a wavelet-based, compact latent encodings. Specifically, we compress a 256^3 signed distance field into a 12^3 × 4 latent grid, achieving an impressive 2,427× compression ratio with minimal loss of detail. This high level of compression allows our method to efficiently train large-scale generative networks without increasing inference time. Our models, both conditional and unconditional, contain approximately one billion parameters and successfully generate high-quality 3D shapes at 256^3 resolution. Moreover, WaLa offers rapid inference, producing shapes within 2–4 seconds depending on the condition, despite the model’s scale. We demonstrate state-of-the-art performance across multiple datasets, with significant improvements in generation quality, diversity, and computational efficiency. Upon acceptance, we will open-source the code and model weights for public use and reproducibility.
+                          </center>
+          </td>
+        </tr>
+      </tbody>
       
     </table>
 
 <!--    <h3 class=""><span style="font-weight: normal;">SIGGRAPH Asia 2022 (Conference Track)</span></h3>-->
 <!--    <h3 class=""><span style="font-weight: normal; margin-top: -10px;">ACM Transaction on Graphics (SIGGRAPH Asia) 38, 6 (2019)</span></h3>
 -->
-    <br>
-    <table align="center" width="1100px">
-      <tbody>
-        <tr>
-          <td align="center" width="275px">
-            <center>
-              <span style="font-size:18px"></span>
-            </center>
-          </td>
-          <td align="center" width="275px">
-            <center>
-              <span style="font-size:18px"></span>
-            </center>
-          </td>
-        </tr>
-      </tbody>
-    </table>
+
   </center>
   <br>
+
+  <center>
+  </center>.<br><br>
+
+  <hr>
+
+  <hr>
   <table align="center" width="1100px">
 
     <tbody>
-      <tr>
+      <!-- <tr>
         <td width="400px">
           <center style="">
             <img class="rounded" src="./assets/images/main_figure.png" width="1000px">
@@ -216,7 +218,7 @@
             <br>
           </center>
         </td>
-      </tr>
+      </tr> -->
       <tr>
         <td width="400px">
           <center style="">
@@ -233,11 +235,6 @@
   </table>
   <br>
   <hr>
-  <center>
-    <h1>Abstract</h1>
-    Large-scale 3D generative models require substantial computational resources yet often fall short in capturing fine details and complex geometries at high resolutions. We attribute this limitation to the inefficiency of current representations, which lack the compactness required for generative networks to model effectively. To address this, we introduce Wavelet Latent Diffusion (WaLa), a novel approach that encodes 3D shapes into a wavelet-based, compact latent encodings. Specifically, we compress a 256^3 signed distance field into a 12^3 × 4 latent grid, achieving an impressive 2,427× compression ratio with minimal loss of detail. This high level of compression allows our method to efficiently train large-scale generative networks without increasing inference time. Our models, both conditional and unconditional, contain approximately one billion parameters and successfully generate high-quality 3D shapes at 256^3 resolution. Moreover, WaLa offers rapid inference, producing shapes within 2–4 seconds depending on the condition, despite the model’s scale. We demonstrate state-of-the-art performance across multiple datasets, with significant improvements in generation quality, diversity, and computational efficiency. Upon acceptance, we will open-source the code and model weights for public use and reproducibility.
-  </center>.<br><br>
-
   <hr>
   <br>
 <center>
@@ -571,13 +568,13 @@
       </center></td>
   </tr>
   </table>
-
+<!-- 
   <hr>
   <center>
   <h1>Single Depthmap Conditioned Generation </h1>
   </center>
-  <table> <!-- Table with a border -->
-    <tr> <!-- First row of the table -->
+  <table>  
+    <tr> 
       <td><img src="./assets/new_results/single_depth_condition/a_banana1_image.png" width="200"></td>
       <td><img src="./assets/new_results/single_depth_condition/a_banana1_pred.gif" width="200"></td>
       <td><img src="./assets/new_results/single_depth_condition/a_camel1_image.png" width="200"></td>
@@ -585,7 +582,7 @@
       <td><img src="./assets/new_results/single_depth_condition/a_hamburger1_image.png" width="200"></td>
       <td><img src="./assets/new_results/single_depth_condition/a_hamburger1_pred.gif" width="200"></td>
     </tr>
-    <tr> <!-- First row of the table -->
+    <tr> 
       <td><img src="./assets/new_results/single_depth_condition/eye_glasses1_image.png" width="200"></td>
       <td><img src="./assets/new_results/single_depth_condition/eye_glasses1_pred.gif" width="200"></td>
       <td><img src="./assets/new_results/single_depth_condition/a_grape1_image.png" width="200"></td>
@@ -594,7 +591,7 @@
         <span style="font-size:22px"> More Results Coming Soon!⌛</span>
       </center></td>
 </tr>
-  </table>
+  </table> -->
 
   <hr>
   <hr>
